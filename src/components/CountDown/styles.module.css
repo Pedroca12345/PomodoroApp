@@ -1,0 +1,6 @@
+.container {
+   font-size: 8rem;
+   font-weight: 700;
+   color: var(--white);
+   text-align: center;
+}
