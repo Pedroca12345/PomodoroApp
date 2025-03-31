@@ -13,7 +13,7 @@ export function Container({ children }: ContainerProps) {
       <div className={container}>
          <div className={content}>
 
-            {children};
+            {children}
 
          </div>
       </div>

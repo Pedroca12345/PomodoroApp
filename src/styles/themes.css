@@ -1,7 +1,10 @@
 :root {
    --white: #ffffff;
    --white-hover: #b6b6b6;
+   --white-disabled: #a0a0a0;
    --purple: #5D44EA;
+   --fluorescent: #F7F052;
+   --purple-disabled: #7d74ad;
    --purple-hover: #351BC4;
    --black: #000000;
    --light-green: #79FF51;

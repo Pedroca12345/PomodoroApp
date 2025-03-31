@@ -1,0 +1,24 @@
+.button {
+   border: none;
+   background-color: var(--purple);
+   border-radius: .8rem;
+   color: var(--white);
+   width: 21.8rem;
+   height: 6rem;
+   transition: all .5s ease-in-out;
+   margin: 4rem 0;
+}
+
+.button:hover {
+   filter: brightness(80%);
+}
+
+.purple {
+   background-color: var(--purple);
+   color: var(--white);
+}
+
+.red {
+   background-color: var(--red);
+   color: var(--white);
+}
