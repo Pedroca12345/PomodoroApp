@@ -1,4 +1,4 @@
-import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
+import { PlayCircleIcon } from 'lucide-react';
 import { Container } from './components/Container';
 import { CountDown } from './components/CountDown';
 import { Cycles } from './components/Cycles';
@@ -7,6 +7,7 @@ import { DefaultInput } from './components/DefaultInput';
 import { Heading } from './components/Heading';
 import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
+import { Footer } from './components/Footer';
 
 import './styles/globals.css';
 import './styles/themes.css';
@@ -50,6 +51,11 @@ export function App() {
           </div>
         </form>
       </Container>
+
+      <Container>
+        <Footer />
+      </Container>
+
     </>
   );
 }

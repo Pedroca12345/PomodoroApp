@@ -16,3 +16,8 @@
    --warning: #eab308;
    --error: #f00101;
 }
+
+:root[data-theme="light"] {
+   --white: #000000;
+   --background-dark: #ebebeb;
+}
