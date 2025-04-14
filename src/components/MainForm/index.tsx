@@ -3,11 +3,10 @@ import { Cycles } from "../Cycles";
 import { DefaultButton } from "../DefaultButton";
 import { DefaultInput } from "../DefaultInput";
 
-import styles from './styles.module.css';
-
 export function MainForm() {
   return (
     <form className='form' action="">
+
       <div className="formRow">
         <DefaultInput
           labelText='Tarefa:'
@@ -17,7 +16,7 @@ export function MainForm() {
         />
       </div>
       <div className="formRow">
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Próximo intervalo é de min.</p>
       </div>
       <div className="formRow">
         <Cycles />
