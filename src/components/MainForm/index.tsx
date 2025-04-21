@@ -54,6 +54,17 @@ export function MainForm() {
     });
   }
 
+  function handleInterruptTask () {
+    setState(prevState => {
+      return {
+        ...prevState,
+        activeTask: null,
+        secondsRemaining: 0, // Conferir depois
+        formattedSecondsRemaining: '00:00',
+      };
+    });
+  }
+
   return (
     <form onSubmit={handleCreateNewTask} className='form' action="">
 
@@ -86,7 +97,8 @@ export function MainForm() {
             title="Iniciar nova tarefa"
             type="submit" 
             icon={<PlayCircleIcon />} 
-            color='purple' 
+            color='purple'
+            key={'start_task'} 
           />
           ) : (
             <DefaultButton
@@ -94,7 +106,9 @@ export function MainForm() {
             title="Interromper tarefa atual"
             type="button" 
             icon={<StopCircleIcon />} 
-            color='red' 
+            color='red'
+            onClick={handleInterruptTask}
+            key={'stop_task'}
           />
           )}
       </div>
