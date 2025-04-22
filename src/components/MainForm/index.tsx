@@ -8,11 +8,14 @@ import { useTaskContext } from "../../contexts/TaskContext/useTaskContext";
 import { getNextCycle } from "../../utils/getCycle";
 import { getNextCycleType } from "../../utils/getNextCycleType";
 import { TaskActionsTypes } from "../../contexts/TaskContext/taskActions";
+import { Tips } from "../Tips";
 
 export function MainForm() {
   const taskNameInput = useRef<HTMLInputElement>(null);
   const { state, dispatch } = useTaskContext();
 
+
+  //ciclos
   const nextCycle = getNextCycle(state.currentCycle);
   const nextCycleType = getNextCycleType(nextCycle);
 
@@ -62,7 +65,7 @@ export function MainForm() {
       </div>
 
       <div className="formRow">
-        <p>Próximo intervalo é de min.</p>
+        <Tips />
       </div>
 
       {state.currentCycle !== 0 && (
