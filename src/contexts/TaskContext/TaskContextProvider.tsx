@@ -55,7 +55,7 @@ export function TaskContextProvider({ children }: TaskContextProviderProps) {
 
   return (
     <TaskContext.Provider value={{ state, dispatch }}>
-      {children}
+      {children}        ('Tocando áudio')
     </TaskContext.Provider>
   );
 }
