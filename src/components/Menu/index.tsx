@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { HistoryIcon, HomeIcon, MoonIcon, Settings, SunIcon } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router';
+import { RouterLink } from '../RouterLink';
 
 type AvailableThemes = "dark" | "light";
 
@@ -36,30 +36,30 @@ export function Menu() {
 
    return (
       <nav className={styles.menu}>
-         <Link 
+         <RouterLink 
             className={styles.menuLink} 
-            to="/" 
+            href="/" 
             aria-label='Ir para o início' 
             title='Ir para o início'
          >
             <HomeIcon />
-         </Link>
-         <a 
+         </RouterLink>
+         <RouterLink 
             className={styles.menuLink} 
-            href="#" 
+            href="/history" 
             aria-label='Ir para o histórico' 
             title='Ir para o histórico'
          >
             <HistoryIcon />
-         </a>
-         <a 
+         </RouterLink>
+         <RouterLink 
             className={styles.menuLink} 
-            href="#" 
+            href="/settings" 
             aria-label='Ir para as configurações' 
             title='Ir para as configurações'
          >
             <span><Settings /></span>
-         </a>
+         </RouterLink>
          <a 
             className={styles.menuLink} 
             href="#" 
