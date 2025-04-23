@@ -42,6 +42,12 @@ export function TaskContextProvider({ children }: TaskContextProviderProps) {
       worker.terminate();
     }
 
+    if(state.activeTask) {
+      document.title = `${state.formattedSecondsRemaining} - Pomodoro`;
+    } else {
+      document.title = 'Pomodoro';
+    }
+    
     worker.postMessage(state);
   }, [worker, state]);
 
