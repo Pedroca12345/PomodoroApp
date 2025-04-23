@@ -18,7 +18,7 @@ export function AboutPomodoro () {
             garantir descansos para evitar o cansaço mental.
           </p>
 
-          <h2>Como funciona o Pomodoro tradicional?</h2>
+          <h2>Como funciona o Pomodoro</h2>
           <ul>
             <li>
               <strong>1. Defina uma tarefa</strong> que você deseja realizar.
@@ -35,15 +35,6 @@ export function AboutPomodoro () {
             </li>
           </ul>
 
-          <h2>
-            Mas no <strong>Chronos Pomodoro</strong> tem um diferencial 🚀
-          </h2>
-
-          <p>
-            Nosso app segue o conceito original, mas com algumas melhorias e
-            personalizações pra deixar o processo ainda mais eficiente:
-          </p>
-
           <h3>⚙️ Personalização do tempo</h3>
           <p>
             Você pode configurar o tempo de foco, descanso curto e descanso
@@ -59,7 +50,7 @@ export function AboutPomodoro () {
             descanso).
           </p>
           <p>
-            <strong>Nosso padrão:</strong>
+            <strong>O padrão:</strong>
           </p>
           <ul>
             <li>
