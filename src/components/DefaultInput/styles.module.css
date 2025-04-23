@@ -2,7 +2,7 @@
    background: transparent;
    outline: none;
    border: solid .2rem transparent;
-   border-bottom: .2rem solid var(--purple);
+   border-bottom: .2rem solid var(--primary);
    color: var(--white);
    text-align: center;
    padding: 1rem;
@@ -12,11 +12,11 @@
 
 .input:disabled {
    border: solid .2rem transparent;
-   border-bottom: .2rem solid var(--purple-disabled);
-   color: var(--white-disabled);
+   border-bottom: .2rem solid var(--primary-disabled);
+   color: var(--text-disabled);
 }
 
 .input:focus {
-   border: .2rem solid var(--purple);
+   border: .2rem solid var(--primary);
    border-radius: .8rem;
 }

@@ -19,11 +19,11 @@
 }
 
 .workTime {
-   background-color: var(--purple);
+   background-color: var(--primary);
 }
 
 .shortBreakTime {
-   background-color: var(--light-green);
+   background-color: var(--success);
 }
 
 .longBreakTime {

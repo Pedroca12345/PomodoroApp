@@ -1,8 +1,8 @@
 .button {
    border: none;
-   background-color: var(--purple);
+   background-color: var(--primary);
    border-radius: .8rem;
-   color: var(--white);
+   color: #000000;
    width: 21.8rem;
    height: 6rem;
    transition: all .5s ease-in-out;
@@ -14,11 +14,11 @@
 }
 
 .purple {
-   background-color: var(--purple);
-   color: var(--white);
+   background-color: var(--primary);
+   color: #000000;
 }
 
 .red {
-   background-color: var(--red);
-   color: var(--white);
+   background-color: var(--error);
+   color: #ffffff;
 }
