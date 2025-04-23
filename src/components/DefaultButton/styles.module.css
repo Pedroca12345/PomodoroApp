@@ -3,7 +3,7 @@
    background-color: var(--primary);
    border-radius: .8rem;
    color: #000000;
-   width: 21.8rem;
+   min-width: 21.8rem;
    height: 6rem;
    transition: all .5s ease-in-out;
    margin: 4rem 0;

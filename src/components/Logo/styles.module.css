@@ -9,7 +9,7 @@
    color: var(--text-default);
    font-size: 3.2rem;
    font-weight: 700;
-   transition: all .3s ease-in-out;
+   transition: filter .3s ease-in-out;
 }
 
 .logoLink:hover {
