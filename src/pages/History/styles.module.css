@@ -36,3 +36,17 @@
   text-align: left;
   padding: 1.6rem;
 }
+
+.thSort {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.thSort:hover {
+  filter: brightness(80%);
+}
+
+h2.error {
+  color: var(--error);
+  text-align: center;
+}
