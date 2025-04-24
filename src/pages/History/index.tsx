@@ -28,6 +28,10 @@ export function History() {
   });
 
   useEffect(() => {
+    document.title = 'Pomodoro - Histórico';
+  }, []);
+
+  useEffect(() => {
     setSortTasksOptions(prevState => ({
       ...prevState,
       tasks: sortTasks({

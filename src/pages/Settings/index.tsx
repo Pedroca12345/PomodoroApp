@@ -3,23 +3,21 @@ import { Container } from "../../components/Container";
 import { DefaultButton } from "../../components/DefaultButton";
 import { DefaultInput } from "../../components/DefaultInput";
 import { Heading } from "../../components/Heading";
-import { TaskStateModel } from "../../models/TaskStateModel";
 import { MainTemplate } from "../../templates/MainTemplate";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useTaskContext } from "../../contexts/TaskContext/useTaskContext";
 import { showMessage } from "../../adapters/showMessage";
 import { TaskActionsTypes } from "../../contexts/TaskContext/taskActions";
-
-export type SettingsProps = {
-  state: TaskStateModel;
-  setState: React.Dispatch<React.SetStateAction<TaskStateModel>>;
-}
 
 export function Settings() {
   const { state, dispatch } = useTaskContext()
   const workTimeInput = useRef<HTMLInputElement>(null);
   const shortBreakTimeInput = useRef<HTMLInputElement>(null);
   const longBreakTimeInput = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+      document.title = 'Pomodoro - Configurações';
+    }, []);
 
   function handleSaveSettings (e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
