@@ -16,7 +16,7 @@ export function DefaultInput ({
 
    return (
       <>
-         {labelText && <label htmlFor="taskInput">{labelText}</label>}
+         {labelText && <label htmlFor={id}>{labelText}</label>}
          
          <input className={input} type={type} id={id} {...props}/>
       </>
