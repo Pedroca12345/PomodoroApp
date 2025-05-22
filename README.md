@@ -1,44 +1,41 @@
-PomodoroApp
-Aplicativo de gerenciamento de ciclos de estudo baseado na Técnica Pomodoro, desenvolvido com React e TypeScript.
+# 🕒 PomodoroApp
 
-🎯 Objetivo
-O PomodoroApp tem como objetivo auxiliar estudantes e profissionais a gerenciar melhor seu tempo, organizando ciclos de foco e descanso, além de manter um histórico das sessões realizadas.
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Deploy - Vercel](https://img.shields.io/badge/deploy-vercel-blue)](https://pomodoro-app-khaki-five.vercel.app/)
+[![Made with React](https://img.shields.io/badge/made%20with-react-61dafb?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-🚀 Tecnologias Utilizadas
-React com TypeScript
+## 🎯 Objetivo
 
-Vite para bundling e desenvolvimento rápido
+O **PomodoroApp** foi criado para ajudar estudantes e profissionais a aplicarem a técnica Pomodoro com praticidade. A ferramenta permite controlar ciclos de foco e descanso, acompanhar o tempo gasto e registrar o histórico das sessões.
 
-Web Workers para gerenciamento de tempo em segundo plano
+## 🚀 Tecnologias Utilizadas
 
-Lucide React para ícones
+- ⚛️ [React](https://reactjs.org/) com [TypeScript](https://www.typescriptlang.org/)
+- ⚡ [Vite](https://vitejs.dev/) para build e hot reload rápidos
+- 🧵 [Web Workers](https://developer.mozilla.org/pt-BR/docs/Web/API/Web_Workers_API) para controle de tempo em background
+- 🔔 [React Toastify](https://fkhadra.github.io/react-toastify/) para notificações
+- 🎨 [Lucide React](https://lucide.dev/) para os ícones
+- 💅 CSS Modules para estilização isolada
 
-React Toastify para notificações
+## 🔥 Funcionalidades
 
-CSS Modules para estilização
-GitHub
+- Início, pausa e reset do cronômetro Pomodoro
+- Alternância automática entre ciclos de foco e descanso
+- Histórico de sessões com status e timestamps
+- Notificações visuais ao final de cada ciclo
+- Interface leve, moderna e responsiva
 
-🧪 Funcionalidades
-Início, pausa e reset do cronômetro
+## 🔗 Acesse o App
 
-Alternância automática entre ciclos de foco e descanso
+👉 **[Acesse o PomodoroApp aqui](https://pomodoro-app-khaki-five.vercel.app/)**  
+O app está publicado e disponível 24h por dia via Vercel.
 
-Histórico de sessões concluídas
+## 🛠️ Como Rodar Localmente
 
-Notificações visuais e sonoras ao final de cada ciclo
+Clone o repositório e rode com os comandos abaixo:
 
-Interface responsiva e acessível
-
-🔗 Acesse o App
-O aplicativo está hospedado na Vercel e pode ser acessado pelo link:
-
-👉 https://pomodoro-app-khaki-five.vercel.app/
-
-📦 Instalação Local
-Para rodar o projeto localmente:
-
-Terminal:
-
+```bash
 git clone https://github.com/Pedroca12345/PomodoroApp.git
 cd PomodoroApp
 npm install
